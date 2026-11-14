@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Updated the Comfy Registry package icon to the official Vergora logo.
+
 ## 0.1.1
 
 - Completed the first Registry publication after the initial package upload was
