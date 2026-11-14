@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Completed the first Registry publication after the initial package upload was
+  interrupted by a storage timeout.
+
 ## 0.1.0
 
 - Added `VergoraSeedance20` for the fixed `seedance-2.0` model only.
