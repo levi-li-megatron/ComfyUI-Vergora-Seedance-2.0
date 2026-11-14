@@ -3,9 +3,16 @@
 ComfyUI custom node for the fixed `seedance-2.0` model through the Vergora API.
 This package exports only `VergoraSeedance20`.
 
-Seedance 2.0 Fast, Seedance 2.0 Mini, and Seedance 2.5 are separate packages.
-Each package has its own parameter schema, so a model-specific control is never
-shown on the wrong model.
+Seedance 2.0 Fast and Mini share one package, while Seedance 2.5 is a separate
+package. Each package has its own parameter schema, so a model-specific control
+is never shown on the wrong model.
+
+## Demo / 演示
+
+[![Seedance 2.0 demo](demo/seedance-2.0-preview.jpg)](https://github.com/levi-li-megatron/ComfyUI-Vergora-Seedance-2.0/releases/download/demo-v1.0.0/vergora_seedance_task_U0z_1794653128.mp4)
+
+Click the cover to watch the generated demo in the GitHub Release.
+点击封面可观看由 Seedance 2.0 生成的演示视频。
 
 ## Fixed model
 
@@ -45,8 +52,7 @@ The installed folder name should remain distinct:
 ```text
 custom_nodes/
   ComfyUI-Vergora-Seedance-2.0/
-  ComfyUI-Vergora-Seedance-2.0-fast/
-  ComfyUI-Vergora-Seedance-2.0-mini/
+  ComfyUI-Vergora-Seedance-2.0-fast-mini/
   ComfyUI-Vergora-Seedance-2.5/
 ```
 
