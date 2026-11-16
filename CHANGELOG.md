@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+- Use the official BytePlus `content[]` request shape by default and first in
+  automatic mode. Keep the flat gateway shape only as a compatibility fallback.
+
 ## 0.1.3
 
 - Replaced the package icon with the shared Vergora Wan3 icon.

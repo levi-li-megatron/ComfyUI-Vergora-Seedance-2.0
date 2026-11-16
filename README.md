@@ -91,15 +91,16 @@ choose an explicit ratio such as `16:9`.
 
 ## Request format
 
-`REQUEST_FORMAT=auto` tries flat gateway fields first and retries with
-`content[]` only when the gateway explicitly reports a missing/unknown schema
-field. Other submit errors are never retried, preventing duplicate tasks and
-duplicate billing.
+`content[]` is the default and uses the official BytePlus request shape.
+`REQUEST_FORMAT=auto` also tries `content[]` first and retries with flat gateway
+fields only when the gateway explicitly rejects the `content[]` schema. Other
+submit errors are never retried, preventing duplicate tasks and duplicate
+billing.
 
 ```ini
-REQUEST_FORMAT = auto
+REQUEST_FORMAT = content
 # or: flat
-# or: content
+# or: auto
 ```
 
 ## Development
